@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyName>KinectInterop</AssemblyName>
+    <RootNamespace>KinectInterop</RootNamespace>
+    <Platforms>AnyCPU</Platforms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Kinect">
+      <HintPath>$(KINECTSDK10_DIR)\Assemblies\Microsoft.Kinect.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\**\*" />
+  </ItemGroup>
+</Project>

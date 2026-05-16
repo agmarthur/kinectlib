@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# Modelos pesados do YOLO
+*.pt
+*.onnx
+yolov8n_openvino_model/
+
+# C# / .NET
+[Oo]bj/
+[Bb]in/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
